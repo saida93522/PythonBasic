@@ -20,10 +20,13 @@ class Author:
 def main():
     book1 = Author('Theodore Taylor')
     book1.publish('The Cay')
+    book1.publish('The Cay')
     print(book1)
-    book1.publish('We Hunt the Flame')
+
     book2 = Author('Lois Lowry')
     book2.publish('The Giver')
+    book2.publish('The Giver')
+
     print(book2)
 
 
